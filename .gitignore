@@ -1,40 +1,32 @@
-# General
+# macOS
+.DS_Store
+
+# Qt / QML / CMake build folders
+build/
+build-*/
+*.user
+*.autosave
+CMakeFiles/
+CMakeCache.txt
+*.qrc.dep
+*.qmlc
+*.jsc
+
+# STM32CubeIDE / Keil / Embedded
+Debug/
+Release/
+*.elf
+*.map
+*.bin
+*.hex
+*.o
+*.list
+*.out
+.settings/
+.metadata/
+
+# Backup
+*~
 *.log
 *.tmp
 *.bak
-.DS_Store
-
-# Build directories
-build/
-build-*/
-out/
-*.o
-*.obj
-
-# Qt Creator / CMake
-CMakeFiles/
-CMakeCache.txt
-*.user
-*.pro.user
-*.qbs.user
-*.qmlc
-*.jsc
-*.autosave
-
-# STM32CubeIDE / Keil / etc.
-*.uvguix.*
-*.uvoptx
-*.uvprojx
-*.launch
-*.ioc-backup-*
-Debug/
-Release/
-.settings/
-.metadata/
-*.elf
-*.hex
-*.bin
-
-# Python virtual envs (if any)
-venv/
-.env/
