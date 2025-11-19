@@ -1,0 +1,40 @@
+# General
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# Build directories
+build/
+build-*/
+out/
+*.o
+*.obj
+
+# Qt Creator / CMake
+CMakeFiles/
+CMakeCache.txt
+*.user
+*.pro.user
+*.qbs.user
+*.qmlc
+*.jsc
+*.autosave
+
+# STM32CubeIDE / Keil / etc.
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+*.launch
+*.ioc-backup-*
+Debug/
+Release/
+.settings/
+.metadata/
+*.elf
+*.hex
+*.bin
+
+# Python virtual envs (if any)
+venv/
+.env/
